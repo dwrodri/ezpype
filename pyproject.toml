@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ezpype"
+version = "0.1.0"
+description = "A simple and easily extensible data pipeline framework in pure Python"
+authors = ["Derek Rodriguez <derek@derekrodriguez.dev>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
